@@ -14,6 +14,30 @@ h6 {
   color: #019d76;
 }
 
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 23px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
 p {
   color: #ffffff;
   font-size: 16px;
@@ -22,6 +46,11 @@ p {
 em {
   color: #71a061;
   font-size: 18px;
+}
+
+strong {
+  color: #455565;
+  font-size: 17;
 }
 
 a {
@@ -40,6 +69,10 @@ span {
   background: #0b0d10;
 }
 
+.vscode-light pre {
+  background-color: #0b0d10;
+}
+
 .vscode-dark pre {
   background-color: #0b0d10;
 }
@@ -47,4 +80,18 @@ span {
 div {
   color: #ffffff;
   background: #0b0d10;
+}
+
+table {
+  color: #15b8ae;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  background-color: #111519;
+}
+
+hr {
+  background-color: #455565;
 }
