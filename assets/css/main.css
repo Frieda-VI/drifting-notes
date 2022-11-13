@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sono&display=swap");
+
+* {
+  font-family: "Sono", sans-serif;
+  background-color: #111519;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #019d76;
+}
+
+p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+em {
+  color: #71a061;
+  font-size: 18px;
+}
+
+a {
+  color: #017c9d;
+}
+
+li {
+  color: #15b8ae;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+}
+
+code,
+span {
+  font-family: "Roboto Mono", monospace;
+  background: #0b0d10;
+}
+
+.vscode-dark pre {
+  background-color: #0b0d10;
+}
+
+div {
+  color: #ffffff;
+  background: #0b0d10;
+}
