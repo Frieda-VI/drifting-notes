@@ -1,12 +1,12 @@
 [
   {
-    "Name": "Intro",
+    "Name": "A blog!?",
     "Date": "13-11-2022",
-    "Path": "html/13-11-2022-Intro.html",
+    "Path": "html/13-11-2022-a-blog.html",
     "Keywords": ["intro", "introduction", "blog"]
   },
   {
-    "Name": "my sadness",
+    "Name": "My Sadness",
     "Date": "20-09-2022",
     "Path": "html/20-09-2022-my-sadness.html",
     "Keywords": ["poem", "my", "sadness"]
