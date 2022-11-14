@@ -556,3 +556,7 @@ img {
   width: 45%;
   height: auto;
 }
+
+.center-text {
+  text-align: center;
+}
