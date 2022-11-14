@@ -14,6 +14,10 @@ body {
   word-wrap: break-word;
 
   background-color: #111519;
+
+  height: 100%;
+  width: calc(100% - 2.5rem * 2);
+  max-width: 57.5rem;
 }
 
 body {
@@ -186,7 +190,7 @@ p {
   margin-bottom: 0.7em;
   color: #ffffff;
   font-size: 16px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 strong {
@@ -517,10 +521,20 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 
 /* Add */
 
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
   font-family: "Sono", sans-serif;
   font-size: 16px;
   line-height: 1.6;
+
+  display: table-cell;
+  vertical-align: middle;
+
+  align-items: center;
 }
 
 .task-list-item {
@@ -529,4 +543,16 @@ body {
 .task-list-item-checkbox {
   margin-left: -20px;
   vertical-align: middle;
+}
+
+#Image {
+  margin-top: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 45%;
+  height: auto;
 }
