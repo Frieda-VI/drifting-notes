@@ -5,19 +5,30 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+:root {
+  --rsize: 2.5rem;
+}
+
+@media screen and (max-width: 50rem) {
+  :root {
+    --rsize: 1.25rem;
+  }
+}
+
 html,
 body {
   font-family: var(--markdown-font-family, "Sono", sans-serif);
-  font-size: var(--markdown-font-size, 16px);
-  padding: 0 26px;
-  line-height: var(--markdown-line-height, 22px);
+  padding: 0 1.625rem;
+  line-height: var(--markdown-line-height, 1.6rem);
   word-wrap: break-word;
 
   background-color: #111519;
 
   height: 100%;
-  width: calc(100% - 2.5rem * 2);
+  width: calc(100% - var(--rsize) * 2);
   max-width: 57.5rem;
+
+  flex-shrink: 0;
 }
 
 body {
@@ -59,27 +70,27 @@ h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 23px;
+  font-size: 1.4375rem;
 }
 
 h5 {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #code-csp-warning {
@@ -189,24 +200,24 @@ textarea:focus {
 p {
   margin-bottom: 0.7em;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   /* text-align: center; */
 }
 
 strong {
   color: #455565;
-  font-size: 17;
+  font-size: 1.0625rem;
 }
 
 li {
   color: #15b8ae;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: "Roboto Mono", monospace;
 }
 
 em {
   color: #71a061;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 ul,
@@ -218,7 +229,8 @@ ol {
 
 hr {
   border: 0;
-  height: 2px;
+  width: 100%;
+  height: 0.125rem;
   border-bottom: 2px solid;
 
   background-color: #455565;
@@ -288,14 +300,17 @@ pre code {
 /** Theming */
 
 .vscode-light pre {
+  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
 .vscode-dark pre {
+  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
 .vscode-high-contrast pre {
+  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
@@ -314,12 +329,14 @@ pre code {
 .vscode-light h1,
 .vscode-light hr,
 .vscode-light td {
+  width: 100%;
   border-color: #455565;
 }
 
 .vscode-dark h1,
 .vscode-dark hr,
 .vscode-dark td {
+  width: 100%;
   border-color: #455565;
 }
 
@@ -529,10 +546,10 @@ html {
 body {
   font-family: "Sono", sans-serif;
   font-size: 16px;
-  /* line-height: 1.6; */
+  /* line-height: 1.6;    */
 
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
 
   align-items: center;
 }
@@ -545,7 +562,7 @@ body {
   vertical-align: middle;
 }
 
-#Image {
+.Image {
   margin-top: 2.5rem;
 
   display: flex;

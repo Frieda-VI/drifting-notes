@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --thumbnail-size: 6.25rem /*9.375rem*/;
+}
+
+@media screen and (max-width: 50rem) {
+  :root {
+    --thumbnail-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  :root {
+    --thumbnail-size: 4rem;
+  }
+}
+
+body {
+  align-items: left;
+}
+
+li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.posts-list {
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.post {
+  display: grid;
+  grid-template:
+    "Image Title" auto
+    "Image Description" auto
+    "Image Date" auto "Image ."
+    1fr / auto 1fr;
+
+  row-gap: 0.625rem;
+  column-gap: 2.5rem;
+}
+
+@media screen and (max-width: 30rem) {
+  .post {
+    grid-template:
+      "Image Title" auto
+      "Image Date" auto
+      "Image ." auto
+      "Description Description" auto
+      / auto 1fr;
+    column-gap: 1.25rem;
+  }
+}
+
+.post > a {
+  display: contents;
+}
+
+.post > a > img {
+  grid-area: Image;
+  width: var(--thumbnail-size);
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.post > a > h2 {
+  grid-area: Title;
+  text-align: left;
+}
+
+.post > a > p {
+  grid-area: Description;
+  max-height: 4.5rem;
+  overflow: hidden;
+}
+
+.post > a > time {
+  grid-area: Date;
+  color: #8a8d8d;
+}
