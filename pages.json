@@ -1,16 +1,18 @@
 [
   {
     "Name": "A blog!?",
-    "Date": "13-11-2022",
-    "Path": "html/13-11-2022-a-blog.html",
+    "Date": "2022-11-13",
+    "Path": "html/2022-11-13-a-blog.html",
     "Image": "assets/images/welcome.jpg",
+    "Description": "I made a blog from scratch...",
     "Keywords": ["intro", "introduction", "blog"]
   },
   {
     "Name": "My Sadness",
-    "Date": "20-09-2022",
-    "Path": "html/20-09-2022-my-sadness.html",
+    "Date": "2022-09-20",
+    "Path": "html/2022-09-20-my-sadness.html",
     "Image": "assets/images/my-sadness.jpg",
+    "Description": "A poem about my sadness...",
     "Keywords": ["poem", "my", "sadness"]
   }
 ]
