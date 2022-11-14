@@ -14,9 +14,7 @@
       fetch("pages.json")
         .then((response) => response.json())
         .then((pages) => {
-          for (var i = 0; i < 10; i++) {
-            if (i == pages.length) break;
-
+          for (var i = 0; i != pages.length; i++) {
             // Create a button \\
             let pagesBtn = document.createElement("a");
             pagesBtn.href = pages[i].Path;
