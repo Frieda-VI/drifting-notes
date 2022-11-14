@@ -13,6 +13,25 @@ const months = [
   "Dec",
 ];
 
+const pages = [
+  {
+    Name: "A blog!?",
+    Date: "2022-11-13",
+    Path: "html/2022-11-13-a-blog.html",
+    Image: "assets/images/welcome.jpg",
+    Description: "I made a blog from scratch...",
+    Keywords: ["intro", "introduction", "blog"],
+  },
+  {
+    Name: "My Sadness",
+    Date: "2022-09-20",
+    Path: "html/2022-09-20-my-sadness.html",
+    Image: "assets/images/my-sadness.jpg",
+    Description: "A poem about my sadness...",
+    Keywords: ["poem", "my", "sadness"],
+  },
+];
+
 function formatDate(date) {
   let dateString = date.split("-");
   return `${dateString[2]} ${months[parseInt(dateString[1]) - 1]} ${
@@ -36,6 +55,7 @@ function createButton(page) {
   return element;
 }
 
+/*
 fetch("../pages.json")
   .then((response) => response.json())
   .then((pages) => {
@@ -49,3 +69,14 @@ fetch("../pages.json")
 
     document.body.appendChild(postList);
   });
+*/
+
+let postList = document.createElement("ul");
+postList.className = "posts-list";
+
+for (var i = 0; i != pages.length; i++) {
+  // Create a button for each available page \\
+  postList.appendChild(createButton(pages[i]));
+}
+
+document.body.appendChild(postList);
