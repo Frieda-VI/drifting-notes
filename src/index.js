@@ -15,6 +15,14 @@ const months = [
 
 const pages = [
   {
+    Name: "Instructions",
+    Date: "2022-11-15",
+    Path: "html/instructions.html",
+    Image: "assets/images/instructions.jpg",
+    Description: "This is the default instruction.",
+    Keywords: ["howto", "blog", "instructions"],
+  },
+  {
     Name: "OOP Lua",
     Date: "2022-11-14",
     Path: "html/2022-11-14-OOP-LUA.html",

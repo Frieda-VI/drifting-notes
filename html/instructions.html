@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Instructions</title>
+
+    <link rel="stylesheet" href="../assets/css/katex.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <script src="../includes/header.js" type="text/javascript" defer></script>
+    <script src="../includes/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body class="vscode-body vscode-dark">
+    <universal-header></universal-header>
+    <h1 id="title">Instructions</h1>
+
+    <div class="Image">
+      <img src="../assets/images/instructions.jpg" alt="Welcome-Image" />
+    </div>
+
+    <p>These are the defaults instructions to creating a blog post.</p>
+    <ol>
+      <li>Writing in markdown format</li>
+      <li>Converting to HTML</li>
+      <li>
+        Replacing the basic styling with
+        <pre><code class="language-html"><div> <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../assets/css/katex.css&quot;</span> /&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;../assets/css/main.css&quot;</span> /&gt;</span>
+
+ <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../includes/header.js&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">defer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;../includes/footer.js&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span> <span class="hljs-attr">defer</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</div></code></pre>
+      </li>
+      <li>
+        Giving the <code>h1</code> tag the <code>title</code> id
+        <pre><code class="language-html"><div> <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;title&quot;</span>&gt;</span>
+</div></code></pre>
+      </li>
+      <li>
+        Before the <code>h1</code> tag insert
+        <code>&lt;universal-header&gt;&lt;/universal-header&gt;</code>
+      </li>
+      <li>
+        At the very end, add
+        <pre><code class="language-html"><div> <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;footer-break&quot;</span> /&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-date&quot;</span>&gt;</span>Posted on XX MONTH 20XX<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+ <span class="hljs-tag">&lt;<span class="hljs-name">universal-footer</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">universal-footer</span>&gt;</span>
+</div></code></pre>
+      </li>
+      <li>Provide the proper paths to images</li>
+      <li>
+        Open the pages.json, and fill in the data according to the table below
+        <pre><code class="language-json"><div> {
+  <span class="hljs-attr">&quot;Name&quot;</span>: <span class="hljs-string">&quot;XXXX&quot;</span>,
+  <span class="hljs-attr">&quot;Date&quot;</span>: <span class="hljs-string">&quot;20XX-MM-DD&quot;</span>,
+  <span class="hljs-attr">&quot;Path&quot;</span>: <span class="hljs-string">&quot;html/2022-MM-DD-NAME.html&quot;</span>,
+  <span class="hljs-attr">&quot;Image&quot;</span>: <span class="hljs-string">&quot;assets/images/THUMBNAIL.jpeg&quot;</span>,
+  <span class="hljs-attr">&quot;Description&quot;</span>: <span class="hljs-string">&quot;XXX&quot;</span>,
+  <span class="hljs-attr">&quot;Keywords&quot;</span>: [<span class="hljs-string">&quot;XXX&quot;</span>, <span class="hljs-string">&quot;XXX&quot;</span>, <span class="hljs-string">&quot;XXX&quot;</span>]
+ },
+</div></code></pre>
+      </li>
+      <li>
+        Open the <code>index.js</code> file and repeat the table in the pages
+        array.
+      </li>
+      <li>Enjoy!</li>
+    </ol>
+
+    <hr class="footer-break" />
+    <p class="post-date">Posted on XX MONTH 20XX</p>
+
+    <universal-footer> </universal-footer>
+  </body>
+</html>

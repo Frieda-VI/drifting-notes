@@ -215,6 +215,10 @@ li {
   font-family: "Roboto Mono", monospace;
 }
 
+li::marker {
+  color: #ffffff;
+}
+
 em {
   color: #71a061;
   font-size: 1.125rem;
@@ -223,6 +227,7 @@ em {
 ul,
 ol {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-bottom: 0.7em;
 }
@@ -562,6 +567,8 @@ body {
 
   display: flex;
   justify-content: center;
+
+  margin-bottom: 2.5rem;
 }
 
 img {
