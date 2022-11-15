@@ -85,3 +85,8 @@ li {
   grid-area: Date;
   color: #8a8d8d;
 }
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0.2em;
+}

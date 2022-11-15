@@ -56,6 +56,8 @@ h5,
 h6 {
   font-weight: normal;
   margin-bottom: 0.2em;
+
+  text-align: left;
 }
 
 h1,
@@ -66,14 +68,17 @@ h5,
 h6 {
   color: #019d76;
   border-color: #455565;
-  text-align: center;
 }
 
 h1 {
   font-size: 1.625rem;
+  text-align: center;
 }
 
 h2 {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+
   font-size: 1.5625rem;
 }
 
