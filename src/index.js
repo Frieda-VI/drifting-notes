@@ -16,7 +16,7 @@ const months = [
 const pages = [
   {
     Name: "OOP Lua",
-    Date: "2022-11-13",
+    Date: "2022-11-14",
     Path: "html/2022-11-14-OOP-LUA.html",
     Image: "assets/images/oop-image.jpeg",
     Description:

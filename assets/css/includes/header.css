@@ -1,0 +1,22 @@
+.header {
+  display: grid;
+  grid-template: "." 8.5rem "nav" auto "h1" auto / 1fr;
+  row-gap: 2.5rem;
+}
+
+.header-nav {
+  grid-area: nav;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+
+#title {
+  grid-area: h1;
+}
+
+.header-nav > a {
+  text-align: left;
+  color: #3a8782;
+}

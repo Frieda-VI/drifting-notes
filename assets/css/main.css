@@ -300,17 +300,14 @@ pre code {
 /** Theming */
 
 .vscode-light pre {
-  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
 .vscode-dark pre {
-  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
 .vscode-high-contrast pre {
-  padding-right: 12rem;
   background-color: #0b0d10;
 }
 
@@ -550,8 +547,6 @@ body {
 
   display: flex;
   flex-direction: column;
-
-  align-items: center;
 }
 
 .task-list-item {
@@ -576,4 +571,8 @@ img {
 
 .center-text {
   text-align: center;
+}
+
+.center {
+  align-items: center;
 }
