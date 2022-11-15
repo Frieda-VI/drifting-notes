@@ -9,7 +9,7 @@ class Footer extends HTMLElement {
 
       <footer>
         <p class="bottom-note">
-          ಥ_ಥ This is my person blog, and I really hope that you enjoyed what you read!
+          ಥ_ಥ This is my personal blog, and I really hope that you enjoyed what you read!
         </p>
 
         <p class="copyright">

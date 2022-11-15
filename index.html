@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/index.css" />
 
-    <script src="includes/footer.js" type="text/javascript" defer></script>
-
     <style>
       .title {
         text-align: left;
@@ -39,8 +37,33 @@
         color: #3a8782;
       }
 
-      .special {
+      .footer-break {
+        margin-top: 7.375rem;
         margin-bottom: 2.375rem;
+
+        border: 0px;
+      }
+
+      .bottom-note {
+        font-size: 0.75rem;
+        line-height: normal;
+      }
+
+      .copyright {
+        font-size: 0.75rem;
+        line-height: normal;
+      }
+
+      footer {
+        font-size: 0.75rem;
+        margin-bottom: 15rem;
+        display: block;
+      }
+
+      footer::after {
+        line-height: normal;
+        color: #3a8782;
+        content: "Designed completely from scratch by Frieda-VI.";
       }
     </style>
 
@@ -57,7 +80,17 @@
 
     <script src="src/index.js"></script>
 
-    <hr class="footer-break special" />
-    <universal-footer> </universal-footer>
+    <hr class="footer-break" />
+    <footer>
+      <p class="bottom-note center-text">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
+      <br />
+      <p class="bottom-note">
+        Howdy there, this is Drifting Notes, my personal blog!
+      </p>
+
+      <p class="copyright">
+        © Frieda-VI 2022. Text is MIT licensed unless specified.
+      </p>
+    </footer>
   </body>
 </html>
