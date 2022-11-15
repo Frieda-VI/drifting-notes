@@ -17,8 +17,6 @@ class Footer extends HTMLElement {
         </p>
       </footer>
     `;
-
-    console.log(Footer.getElementsByTagName("post-date"));
   }
 }
 
