@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template: "." 8.5rem "nav" auto "h1" auto / 1fr;
+  grid-template: "." 12.5rem "nav" auto "h1" auto / 1fr;
   row-gap: 2.5rem;
 }
 
@@ -17,6 +17,8 @@
 }
 
 .header-nav > a {
+  font-size: 1.2rem;
+
   text-align: left;
   color: #3a8782;
 }

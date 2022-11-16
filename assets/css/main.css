@@ -19,7 +19,7 @@ html,
 body {
   font-family: var(--markdown-font-family, "Sono", sans-serif);
   padding: 0 1.625rem;
-  line-height: var(--markdown-line-height, 1.6rem);
+
   word-wrap: break-word;
 
   background-color: #111519;
@@ -32,7 +32,11 @@ body {
 }
 
 body {
-  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+
+  line-height: 150%;
+  padding-top: 1rem;
 }
 
 /* Reset margin top for elements */
@@ -550,15 +554,6 @@ html {
   margin: auto;
 }
 
-body {
-  font-family: "Sono", sans-serif;
-  font-size: 16px;
-  /* line-height: 1.6;    */
-
-  display: flex;
-  flex-direction: column;
-}
-
 .task-list-item {
   list-style-type: none;
 }
@@ -573,7 +568,13 @@ body {
   display: flex;
   justify-content: center;
 
+  align-items: center;
+
   margin-bottom: 2.5rem;
+}
+
+.Image > img {
+  width: calc(100% + var(--rsize) * 2);
 }
 
 img {

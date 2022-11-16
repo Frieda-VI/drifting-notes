@@ -5,7 +5,7 @@
 }
 
 :root {
-  --thumbnail-size: 6.25rem /*9.375rem*/;
+  --thumbnail-size: 9.375rem;
 }
 
 @media screen and (max-width: 50rem) {
