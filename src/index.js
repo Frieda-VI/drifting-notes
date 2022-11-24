@@ -26,8 +26,8 @@ const pages = [
   {
     Name: "Teenagers' Relationships",
     Date: "2022-11-15",
-    Path: "html/2022-11-15-teenagers-relationships-2.html",
-    Image: "assets/images/relationships.jpg",
+    Path: "html/2022-11-15-teenagers-relationships.html",
+    Image: "assets/images/relationships-2.jpg",
     Description:
       "Teenagers' and their absurd relationships that only last for mere seconds and ends with heartbreaks and worse...",
     Keywords: ["teen", "blog", "relationships"],
