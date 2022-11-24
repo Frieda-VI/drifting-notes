@@ -66,6 +66,7 @@ li {
 .post > a > img {
   grid-area: Image;
   width: var(--thumbnail-size);
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
 }

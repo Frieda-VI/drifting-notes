@@ -15,6 +15,15 @@ const months = [
 
 const pages = [
   {
+    Name: "Mechanical Habits",
+    Date: "2022-11-24",
+    Path: "html/2022-11-24-mechanical-habits.html",
+    Image: "assets/images/mechanical-habits2.jpg",
+    Description:
+      "Get started with a new habit of your choice and become a better self...",
+    Keywords: ["habits", "self-improvement", "daily-routine"],
+  },
+  {
     Name: "Teenagers' Relationships",
     Date: "2022-11-15",
     Path: "html/2022-11-15-teenagers-relationships.html",
