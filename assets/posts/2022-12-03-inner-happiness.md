@@ -8,13 +8,13 @@
 
 I am unsure of how to explain this, but everyone who has ever felt it before will be able to relate. I wouldn't like to say it's an ephemeral feeling but it's not here all the time. It's about feeling good for simply existing.
 
-`I do not believe there's a meaning behind our existence but this shouldn't stop us from being happy. In fact, the reason we living is because of happy.`
+`I do not believe there's a meaning behind our existence but this shouldn't stop us from being happy. In fact, the reason we are living is because of happiness.`
 
 There are different types of happiness. The most common happiness in our modern society is materialistic happiness; the happiness that you acquire from objects you bought or own. Part of our society's brainwashing scheme is likely making us think that the only way of achieving happiness is through buying stuff. This is not the case! 
 
 Inner happiness can be triggered through really simple stuff. Sometimes just peeking outside of my window and smelling the smell of rain on leaves and the ground. Closing your eyes, after seeing the beautiful scene, brings feelings that you rarely felt. It is a sort of unity with nature and oneself.
 
-This inner happiness comes from oneself, the universe and nature. It is a state grace, you can't really force yourself to experience it. It happens automatically with your body.
+This inner happiness comes from oneself, the universe and nature. It is a state of gracefulness, you can't really force yourself to experience it. It happens automatically with your body.
 
 After exercising, I often just find myself a safe place to sit. Being undisturbed and gasping for air. It's then that it occurs, the immense pleasure of being there. Being in a sort of state, where only nature and I exist. I begin to realise the breeze hitting my skin, the smell of sweat or maybe other natural ones, the sound of birds chirping, the often sound of vehicles, the light rays hitting my skin, and a lot more.
 
