@@ -15,6 +15,14 @@ const months = [
 
 const pages = [
   {
+    Name: "Inner Happiness",
+    Date: "2022-12-03",
+    Path: "html/2022-12-03-inner-happiness.html",
+    Image: "assets/images/inner-happiness2.jpg",
+    Description: "What is like being truly happy (only yourself needed)...",
+    Keywords: ["inner-happiness", "nature", "self-care"],
+  },
+  {
     Name: "Mechanical Habits",
     Date: "2022-11-24",
     Path: "html/2022-11-24-mechanical-habits.html",
