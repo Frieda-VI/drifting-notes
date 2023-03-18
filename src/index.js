@@ -15,6 +15,14 @@ const months = [
 
 const pages = [
   {
+    Name: "In The Midst",
+    Date: "2023-03-18",
+    Path: "html/2023-03-18-in-the-midst.html",
+    Image: "assets/images/in-the-midst.jpg",
+    Description: "A shortstory by Frieda_IV...",
+    Keywords: ["shortstory", "stories", "in-the-midst"],
+  },
+  {
     Name: "Inner Happiness",
     Date: "2022-12-03",
     Path: "html/2022-12-03-inner-happiness.html",
