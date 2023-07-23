@@ -1,5 +1,13 @@
 [
   {
+    "Name": "Shattered",
+    "Date": "2023-07-23",
+    "Path": "html/2023-07-23-shattered.html",
+    "Image": "assets/images/shattered.jpg",
+    "Description": "My shared misery...",
+    "Keywords": ["misery", "pain", "sadness"]
+  },
+  {
     "Name": "Inner Happiness",
     "Date": "2022-12-03",
     "Path": "html/2022-12-03-inner-happiness.html",
