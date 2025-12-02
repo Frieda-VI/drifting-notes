@@ -10,7 +10,7 @@ class Header extends HTMLElement {
     <header class="header">
         <nav class="header-nav">
           <a href="../index.html">Drifting Notes</a>
-          <a href="https://twitter.com/FriedaR_VI" target="_blank">Comments</a>
+          <a href="../comments.html" target="_blank">Comments</a>
         </nav>
     </header>
     `;

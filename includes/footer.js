@@ -13,7 +13,7 @@ class Footer extends HTMLElement {
         </p>
 
         <p class="copyright">
-          © Frieda-VI 2022. Text is MIT licensed unless specified.
+          © Frieda-VI 2025. Text is MIT licensed unless specified.
         </p>
       </footer>
     `;

@@ -15,6 +15,14 @@ const months = [
 
 const pages = [
   {
+    Name: "Shallow Engagements",
+    Date: "2025-12-02",
+    Path: "html/2025-12-02-shallow-engagements.html",
+    Image: "assets/images/shallow-engagements.jpg",
+    Description: "A person take on shallow interactions, their effects and solutions...",
+    Keywords: ["shallow-engagement", "reflection", "self-improvement"],
+  },
+  {
     Name: "Shattered",
     Date: "2023-07-23",
     Path: "html/2023-07-23-shattered.html",
